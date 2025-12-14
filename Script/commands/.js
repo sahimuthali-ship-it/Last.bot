@@ -3,7 +3,7 @@ const fs = require("fs");
 const request = require("request");
 
 const link = [
- "https://i.imgur.com/bbigbCj.mp4",
+ "https://imgur.com/a/be-happy-Q4D2utt",
 
 ];
 
@@ -11,7 +11,7 @@ module.exports.config = {
  name: "🥺",
  version: "1.0.0",
  hasPermssion: 0,
- credits: "Islamick Chat",
+ credits: "CHIT CAT BOT",
  description: "auto reply to salam",
  commandCategory: "noprefix",
  usages: "🥺",
@@ -28,8 +28,7 @@ module.exports.handleEvent = async ({ api, event, Threads }) => {
  const body = content.toLowerCase();
  if (body.startsWith("🥺")) {
  const rahad = [
- "╭•┄┅════❁🌺❁════┅┄•╮\n \n আমি বলবো কেমন করে আমার শরিলের লোম দারিয়ে যায়-!!🥺\n\n╰•┄┅════❁🌺❁════┅┄•╯",
- "╭•┄┅════❁🌺❁════┅┄•╮\n\nআমি বলবো কেমন করে আমার শরিলের লোম দারিয়ে যায়-!!🥺\n\n╰•┄┅════❁🌺❁════┅┄•╯"
+ "╭-!!🥺\n\n╰•┄┅════❁🌺❁════┅┄•╯"
 
  ];
  const rahad2 = rahad[Math.floor(Math.random() * rahad.length)];
