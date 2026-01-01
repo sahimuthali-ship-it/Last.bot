@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "config",
 	version: "1.0.0",
 	hasPermssion: 2,
-	credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+	credits: "Farhan/ Sahim",
 	description: "config bot!",
 	commandCategory: "admin",
 	cooldowns: 5
@@ -816,7 +816,7 @@ module.exports.handleReply = async function({ api, event, handleReply }) {
 module.exports.run = async ({ event, api }) => {
   const { threadID, messageID, senderID } = event;
   
-  api.sendMessage("⚙️⚙️𝗜𝘀𝗹𝗮𝗺𝗶𝗰𝗸 𝗰𝗵𝗮𝘁 𝗯𝗼𝘁 Command List ⚙️⚙️"
+  api.sendMessage("⚙️⚙️ CHIT CAT Command List ⚙️⚙️"
      + "\n[01] Edit bot bio"
      + "\n[02] Edit bot nicknames"
      + "\n[03] View pending messages"
